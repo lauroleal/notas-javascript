@@ -1,0 +1,82 @@
+
+function load(){
+    alert("Pagina carregada...");
+
+function load(){
+    alert("Pagina carregada...");
+}
+
+var d = new Date();
+alert("Olá "+nome +" esse e o seu java script, hoje é: "+d);
+
+// função com innerHtml
+
+
+function clique(){
+    document.getElementById("agradecimento").innerHTML = "Obrigado por Clicar";
+}
+
+function redirecionar(){
+     //abrir em outra janela
+    window.open("https://github.com/lauroleal/Aula_JavaScript");
+    //abrir na mesma janela
+    //window.location.href = "https://github.com/lauroleal/Aula_JavaScript";
+}
+
+function trocar(element){
+    //document.getElementById("mausemove").innerHTML = "Você passou o mause";
+    //alert("trocar texto");
+    element.innerHTML = "Você passou o mause";
+}
+
+function voltar(element){
+    //document.getElementById("mausemove").innerHTML = "passe o mause aqui";
+    //alert("trocar texto");
+    element.innerHTML = "passe o mause";
+}
+
+function change(element){
+    console.log(element.value)
+
+}
+
+/*
+function trocar(){
+    document.getElementById("mausemove").innerHTML = "Você passou o mause";
+    //alert("trocar texto");
+}
+
+function voltar(){
+    document.getElementById("mausemove").innerHTML = "passe o mause aqui";
+    //alert("trocar texto");
+}
+*/
+
+/*
+function clique(){
+    alert("Você clicou!");
+}
+*/
+//funções
+/*
+function soma(n1,n2){
+    return n1 + n2;
+}
+function multi(n1,n2){
+    return n1 * n2;
+}
+function div(n1,n2){
+    return n1 / n2;
+}
+function sub(n1,n2){
+    return n1 - n2;
+}
+alert(soma(4,5));
+alert(multi(4,5));
+alert(div(4,5));
+alert(sub(4,5));
+*/
+/* 
+alert(d.getDay());
+alert(d.getHours());
+alert(d.getMinutes());

@@ -1,0 +1,22 @@
+#Operadores Aritméticos / matemáticas
+
+var a = 20;
+var b = 40;
+
+# soma
+alert(b+a);
+
+ # divisão
+alert(a / b);
+
+#multiplicação
+alert(a * b);
+
+#subtração
+alert(a - b);
+
+#expoenciação
+alert(a ** b);
+
+#modulo ou resto da divisão 
+alert(a % b);

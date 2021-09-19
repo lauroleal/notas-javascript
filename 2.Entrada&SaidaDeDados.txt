@@ -1,0 +1,31 @@
+//entrada de dados
+var idade = prompt("Qual sua idade?");
+var nome = prompt("Qual e o seu nome?");
+
+//data atual
+var d = new Date();
+// conteúdo exibido na tela
+alert("Olá "+nome +" esse e o seu java script, hoje é: "+d);
+
+
+// lista de itens
+var lista =["maça","pêra","laranja"];
+//log no navegador
+console.log(lista);
+
+alert("lista de frutas criadas: "+lista);
+//adicionando itens na lista
+lista.push("uva");
+lista.push("goiaba");
+
+alert("adicionando um outros itens na lista ficou: "+lista);
+
+// acessando o conteúdo pelo indice 
+alert("acessando pelo indice: "+lista[0])
+
+// removendo o ultimo item adicionado
+lista.pop();
+// removendo item especifico
+lista.pop("maça");
+alert("Removemos um item da lista, ficou: "+lista)
+console.log(lista);

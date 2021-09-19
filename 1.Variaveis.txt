@@ -1,0 +1,19 @@
+//comentario e assim
+
+// variavel string
+var nome="Lauro Leal"
+var frase = "uma frase";
+
+//variavel inteira
+var a = 20;
+var b = 40;
+
+// lista em java 
+var lista =["maça","pêra","laranja"];
+
+//dicionario em java 
+var dicio_frutas = {nom:"maça", cor:"vermelha"}
+
+//dicionario com lista / uma lista de dicionarios
+var lista_DeDicionarios_frutas = [{nome:"maça", cor:"vermelha"},{nome:"uva", cor:"verde"},{nome:"laranja", cor:"laranja"},{nome:"pêra", cor:"amarela"},{nome:"goiaba", cor:"vermelha"}];
+
